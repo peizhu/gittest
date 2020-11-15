@@ -9,7 +9,7 @@ public class SpringSessionDemoApplication {
     public static void main(String[] args) {
         System.out.println("===");
         System.out.println("wocao");
-        //不可以可以
+        //不可以可以吗
         SpringApplication.run(SpringSessionDemoApplication.class, args);
     }
 
