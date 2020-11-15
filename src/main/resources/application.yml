@@ -1,0 +1,15 @@
+server:
+  port: 8000
+spring:
+  redis:
+    host: 192.168.3.139
+    port: 6379
+    password: 123456
+  session:
+    store-type: redis  #redis存储
+    timeout: 1800  #session过期时间
+  thymeleaf:
+    cache: false  #禁用缓存
+  messages:
+    encoding: UTF-8
+    basename: message_zh_CN
